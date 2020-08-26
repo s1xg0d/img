@@ -24,7 +24,7 @@ body {
 }
 
 .markdown-body a {
-  background: transparent;;word-wrap: break-word; word-break: break-all;
+  background: transparent;;word-wrap: break-word; word-break: break-all;position: relative;
 }
 
 .markdown-body a:active,
@@ -42,7 +42,11 @@ body {
 }
 
 .markdown-body img {
-  border: 0;
+  border: 1;
+  border-radius:5px;
+  box-shadow: rgb(0 0 0 / 48%) 0px 0px 6px 0px;
+  margin:0 auto;
+  width: 100%;
 }
 
 .markdown-body hr {
@@ -735,7 +739,9 @@ body {
   vertical-align: middle;
 }
 
-figcaption{text-align:center;}
+figcaption{
+    text-align: center;
+  }
 
 /* PrismJS 1.14.0
  http://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript */
