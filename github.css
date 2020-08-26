@@ -848,7 +848,8 @@ pre[class*="language-"]:before {
 .token.constant,
 .token.symbol,
 .token.deleted {
-    color: #905;
+/*    color: #905;
+*/    background-color: #ffc8bd;
 }
 
 .token.selector,
@@ -857,7 +858,8 @@ pre[class*="language-"]:before {
 .token.char,
 .token.builtin,
 .token.inserted {
-    color: #690;
+/*    color: #690;
+*/    background-color: #baeeba;
 }
 
 .token.operator,
